@@ -15,8 +15,12 @@ nav{
     text-align: right;
     
 }
-
-
+ol {
+    list-style-type: none;
+}
+ol li {
+    display: inline-block;
+}
 h1{
     margin: 100px;
     font-size: 100px;
