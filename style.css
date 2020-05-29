@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#1f1f1f79, #1f1f1f79), url('leon-contreras-Wu3pkvOIMJk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed ;
+    color: white;
+}
+
+nav{
+    margin: 50px;
+    padding: 25px;
+    text-align: right;
+    
+}
+
+
+h1{
+    margin: 100px;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+h2{
+    margin: 100px;
+    margin-top: 200px;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+#intro{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+}
+
+
+#about, #contact { 
+    margin: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+li{
+    margin: 50px;
+}
+
+/* Link formating */
+a {
+    color: #bcc0cf;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+a:link, a:visited, a:hover, a:active {
+    color: #bcc0cf;
+}
